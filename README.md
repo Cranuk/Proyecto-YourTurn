@@ -2,7 +2,7 @@
 
 ![YourTurn Logo](https://github.com/Cranuk/Proyecto-YourTurn/blob/master/public/yourTurn-image.png)
 
-**YourTurn** es un software diseñado para solicitar y gestionar turnos de manera eficiente. Ideal para organizaciones que necesitan manejar flujos de clientes y optimizar el tiempo de espera. Especialmente en la atencion al cliente
+**YourTurn** es un software diseñado para solicitar y gestionar turnos de manera eficiente. Ideal para organizaciones que necesitan manejar flujos de clientes y optimizar el tiempo de espera.
 
 ## 🚀 Descripción
 
