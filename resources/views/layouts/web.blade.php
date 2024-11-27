@@ -13,31 +13,23 @@
         <title>YourTurn - @yield('title')</title>
         @vite([
             'resources/css/app.css',
-            'resources/css/global.css',
-            'resources/css/table.css',
-            'resources/css/forms.css',
-            'resources/css/turn.css',
-            'resources/css/footer.css',
             'resources/js/app.js',
-            'resources/js/turn.js',
-            'resources/js/helpers.js',
             ])
     </head>
     <body>
         @include('includes.header')
 
-        @yield('content-main')
-
         <!--NOTE: agregamos el audio para que sea accesible para el resto de las vistas-->
         <audio id="update-turn" src="{{ asset('audio/sonido-turno.mp3')}}" preload="auto"></audio>
 
-        <div class="container">
+        <main>
+            @yield('content-main')
             <div class="container-content">
                 @yield('content-listTurn')
                 @yield('content-callTurn')
                 @yield('content-orderTurn')
             </div>
-        </div>
+        </main>
 
         @include('includes.footer')
     </body>

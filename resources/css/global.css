@@ -1,3 +1,9 @@
+:root{
+    --color-text:#f9f7f3;
+    --background-footer: #333333;
+    --color-link: #ffb200;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +26,10 @@ a{
 
 ul{
     list-style: none;
+}
+
+main{
+    min-height: 90vh;
 }
 
 .space-5{
@@ -50,10 +60,6 @@ ul{
 
 .icon-big{
     font-size: 4rem;
-}
-
-.container{
-    width: 100vw;
 }
 
 .container-content{
